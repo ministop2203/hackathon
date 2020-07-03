@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="codeJs.js"></script>
+        <title>Học Online: 1500+ khóa học trực tuyến HOT cho người đi làm - Unica</title>
+    </head>
+    <body>
+       <div class="unica-header">
+           <div class="unica-logo-decoration">  
+                <img src="./picture/unica.PNG" alt="" class="unica-logo">
+           </div>
+           <input type="text" class="input-search" placeholder="Tìm khóa học, giảng viên mà bạn quan tâm">
+           <button onclick="getInfoFromSearch()" id="search-logo"><img src="./picture/serch-logo.PNG" alt="" class="search-image"></button>
+           <a href="activateCourse.html"><button class="btn-activate"> Kích hoạt khóa học</button></a>
+           <button id="shopping-logo"><img class="image-shopping" src="./picture/logo.PNG" alt="" ></button>
+           <a href="login.html"><button type="button" class="login">Đăng nhập</button></a>
+           <a href="register.html"><button type="button" class="register">Đăng ký</button></a>
+           <div class="clear-float"></div><hr class="hr">         
+        </div>
+        <div class="list-all-fields">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong><a class="color-address" href="D:\MindX\Lesson\Unica\unica.html">Ngoại ngữ</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả ngoại ngữ</a></li>
+                  <li><a href="#">Tiếng Hàn</a></li>
+                  <li><a href="#">Tiếng Anh</a></li>
+                  <li><a href="#">Tiếng Trung</a></li>
+                  <li><a href="#">Tiếng Nhật</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong><a class="color-address" href="D:\MindX\Lesson\Unica\page2.html">Marketing</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả marketing</a></li>
+                  <li><a href="#">Facebook marketing</a></li>
+                  <li><a href="#">Tự động hóa marketing</a></li>
+                  <li><a href="#">Email marketing</a></li>
+                  <li><a href="#">Google ads</a></li>
+                  <li><a href="#">Branding</a></li>
+                  <li><a href="#">Video marketing</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong><a class="color-address" href="D:\MindX\Lesson\Unica\page3.html">Tin học văn phòng</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả tin học văn phòng</a></li>
+                  <li><a href="#">Exel</a></li>
+                  <li><a href="#">Word</a></li>
+                  <li><a href="#">Kế toán</a></li>
+                  <li><a href="#">Powerpoint</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong> <a class="color-address" href="D:\MindX\Lesson\Unica\thietke.html">Thiết kế</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả thiết kế</a></li>
+                  <li><a href="#">Thiết kế Web</a></li>
+                  <li><a href="#">Thiết kế nội thất</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong style="font-size: 13.5px;"><a class="color-address" href="D:\MindX\Lesson\Unica\kinhdoanh.html">Kinh doanh-Khởi nghiệp</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả kinh doanh - khởi nghiệp</a></li>
+                  <li><a href="#">Chiến lược kinh doanh</a></li>
+                  <li><a href="#">Bất động sản</a></li>
+                  <li><a href="#">Kiếm tiền Zalo</a></li>
+                  <li><a href="#">Crypto</a></li>
+                  <li><a href="#">Kinh doanh online</a></li>
+                  <li><a href="#">Start-up</a></li>
+                  <li><a href="#">Kiếm tiền online</a></li>
+                  <li><a href="#">Chứng khoán</a></li>
+                  <li><a href="#">Dropshipping</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong><a class="color-address" href="D:\MindX\Lesson\Unica\phat trien ca nhan.html"> Phát triển cá nhân</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả phát triển cá nhân</a></li>
+                  <li><a href="#">Tài chính cá nhân</a></li>
+                  <li><a href="#">Kĩ năng lãnh đạo</a></li>
+                  <li><a href="#">Thuyết trình</a></li>
+                  <li><a href="#">Kĩ năng giao tiếp</a></li>  
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong><a class="color-address" href="D:\MindX\Lesson\Unica\do-an.html">Sales, bán hàng</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả sales, bán hàng</a></li>
+                  <li><a href="#">Bán hàng online</a></li>
+                  <li><a href="#">Livestream</a></li>
+                  <li><a href="#">Kĩ năng bán hàng</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong><a class="color-address" href="D:\MindX\Lesson\Unica\layout2.html">Công nghệ thông tin</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả công nghệ thông tin</a></li>
+                  <li><a href="#">Lập trình</a></li>
+                  <li><a href="#">Lập trình Web</a></li>
+                  <li><a href="#">Lập trình Android</a></li>
+                  <li><a href="#">Lập trình IOS</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong><a class="color-address" href="D:\MindX\Lesson\Unica\layout3.html">Sức khỏe-Giới tính</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả sức khỏe-giới tính</a></li>
+                  <li><a href="#">Giảm cân</a></li>
+                  <li><a href="#">Thiền</a></li>
+                  <li><a href="#">Tình yêu</a></li>
+                  <li><a href="#">Yoga</a></li>
+                  <li><a href="#">Fitness</a></li>
+                  <li><a href="#">Message</a></li>
+                  <li><a href="#">Dinh dưỡng</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong><a class="color-address">Phong cách sống</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả phong cách sống</a></li>
+                  <li><a href="#">Ẩm thực</a></li>
+                  <li><a href="#">Làm đẹp</a></li>
+                  <li><a href="#">Ảo thuật</a></li>
+                  <li><a href="#">Âm nhạc</a></li>
+                  <li><a href="#">Nhảy</a></li>
+                  <li><a href="#">Phong thủy</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" style="width: 175px;background-color: rgb(242, 136, 0)"><strong><a class="color-address">Nuôi dạy con</a></strong></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tất cả nuôi dạy con</a></li>
+                  <li><a href="#">Giáo dục sớm</a></li>
+                  <li><a href="#">Thai giáo</a></li>
+                  <li><a href="#">Ăn dặm</a></li>
+                </ul>
+            </div>
+            
+            
+        </div>
+        <div class="show-ads-image">
+            <div class="ads-image">
+                <div class="image1 active">
+                    <img id="ader-img-1" src="./picture/adver1.PNG" onmouseover="this.src='./picture/adver2.PNG'" onmouseout="this.src='./picture/adver1.PNG'" width="1149px" height="400px"></div>
+            </div>    
+            <div class="ads-image-button">
+                <span id="btn-prev" onclick="prevButton()"><i class="fas fa-chevron-left"></i></span>
+                <span id="btn-next"><i class="fas fa-chevron-right"></i></span>
+            </div>
+        </div>
+        <div class="clear-float"></div>
+            <div class="today">
+                <div class="title-today">HÔM NAY BẠN MUỐN HỌC GÌ?</div>
+                <div class="btn-multiple-choice">
+                    <button class="btn-logo-today"><img src="./picture/nn-logo-btn.PNG" ></button>
+                    <button class="btn-logo-today"><img src="./picture/mkt-logo-btn.PNG"></button>
+                    <button class="btn-logo-today"><img src="./picture/thvp-logo-btn.PNG"></button>
+                    <button class="btn-logo-today"><img src="./picture/tk-logo-btn.PNG"></button>
+                    <button class="btn-logo-today"><img src="./picture/kdkn-logo-btn.PNG"></button>
+                    <button class="btn-logo-today"><img src="./picture/ptcn-logo-btn.PNG"></button>
+                    <button class="btn-logo-today"><img src="./picture/sale-logo-btn.PNG"></button>
+                    <button class="btn-logo-today"><img src="./picture/cntt-logo-btn.PNG"></button>
+                    <button class="btn-logo-today"><img src="./picture/skgt-logo-btn.PNG"></button>
+                    <button class="btn-logo-today"><img src="./picture/pcs-logo-btn.PNG"></button>
+                    <button class="btn-logo-today"><img src="./picture/ncd-logo-btn.PNG"></button>
+                    <button class="btn-logo-today"><img src="./picture/hngd-logo-btn.PNG"></button>
+                </div>  
+            </div>
+            <div class="unica-img-1">
+                <img src="./picture/unica-image.PNG" alt="">
+            </div>
+            <div class="good-member">
+                <div class="title-member">GIẢNG VIÊN TIÊU BIỂU</div>
+                <div class="member-perfect">
+                  <div class="modal fade" id="getImg1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Thông tin về giảng viên</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./picture/name1.PNG">
+                            <h3><b>Giảng viên có hơn 8 năm kinh nghiệm làm trong lĩnh vực Facebook Marketing</b></h3>
+                            <p>Anh dạy học rất dễ hiểu và chu đáo, kiến thức thực tế để áp dụng vào thực tế</p>
+                        </div>            
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="getImg2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Thông tin về giảng viên</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3><b>Giảng viên có hơn 12 năm kinh nghiệm làm trong lĩnh vực Yoga tại Việt Nam</b></h3>
+                            <p>Chị là Đại sứ Yoga Việt Nam do trung tâm Unesco Phát triển văn hóa và Thể thao phong tặng</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="getImg3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Thông tin về giảng viên</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3><b>Giảng viên có hơn 12 năm kinh nghiệm làm trong lĩnh vực chơi đàn và nghiên cứu về âm nhạc</b></h3>
+                            <p>Anh là một trong những giảng viên, youtuber có tên tuổi trong cộng đồng Guitar tại Việt Nam</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="getImg4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Thông tin về giảng viên</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3><b>Giảng viên có hơn 15 năm kinh nghiệm làm trong lĩnh vực luật Kinh doanh và luật Sở hữu trí tuệ nhân tạo</b></h3>
+                            <p>Anh đã giúp 34.000 doanh nhân phát triển trong lĩnh vực kinh doanh của họ</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                    <img class="equal-img" src="./picture/name1.PNG" data-toggle="modal" data-target="#getImg1">
+                    <img class="equal-img" src="./picture/name2.PNG" data-toggle="modal" data-target="#getImg2">
+                    <img class="equal-img" src="./picture/name3.PNG" data-toggle="modal" data-target="#getImg3">
+                    <img class="equal-img" src="./picture/name4.PNG" data-toggle="modal" data-target="#getImg4">
+                </div>
+            </div>
+            <div class="contact">
+                <div class="img-contact">
+                    <p class="unica-title">u<span style="color: rgb(9,117,181);">nica</span></p>
+                    <p class="icon-footer"><i class="fas fa-map-marker-alt"></i>247 Cầu Giấy, Hà Nội</p>
+                    <p class="icon-footer"><i class="fas fa-map-marker-alt"></i>323A Lê Quang Định, TP HCM</p>
+                    <p class="icon-footer"><i class="fas fa-phone"></i>090 488 6095</p>
+                    <p class="icon-footer"><i class="far fa-envelope"></i>cskh@unica.vn</p>
+                    <p class="icon-footer"><i class="far fa-clock"></i>8:00 - 22:00</p>
+                  </div>
+                <div class="about-unica">
+                    <br><p class="title-footer">Về Unica</p>
+                    <p></p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Giới thiệu về Unica</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Câu hỏi thường gặp</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Điều khoản dịch vụ</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Hướng dẫn thanh toán</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Kích hoạt khóa học</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Góc chia sẻ</button></p>
+                    <button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Chính sách bảo mật</button>
+                </div>
+                <div class="collabration">
+                    <br><p class="title-footer">Hợp tác liên kết</p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Đăng kí giảng viên</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Đăng kí giảng viên</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Đăng kí đại lí</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Đăng kí đại lí</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Giải pháp E-learning</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Đào tạo chuyên nghiệp</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Tuyển dụng nhân tài</button></p>
+                    <p><button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Thẻ học online</button></p>
+                    <button onmouseover="this.style.color='rgb(242, 136, 0)'" onmouseout="this.style.color='rgb(255,255,255)'" class="format-btn">Artifact</button>
+                </div>
+                <div class="download">
+                    <br><p class="title-footer">Tải app Unica</p>
+                    <p><img class="image-footer" src="./picture/ios.PNG" alt=""></p><br>
+                    <img class="image-footer" id="title-foot" src="./picture/and.PNG" alt="" width="128px"><br><br>
+                    <p class="title-footer">Kết nối với Unica</p>
+                    <img class="icon-fb-ytb" src="./picture/fb-icon.PNG" width="40px" height="40px" style="margin-top: 20px; cursor: pointer;">
+                    <a href="https://www.youtube.com/channel/UCrQoGDajCBs91atwgV8H6gw"><img class="icon-fb-ytb" src="./picture/ytb-icon.PNG" width="40px" height="40px" style="margin-left: 10px; margin-top: 20px; cursor: pointer;"></a>
+                </div>
+            </div>   
+    </body>
+</html>

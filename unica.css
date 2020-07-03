@@ -1,0 +1,179 @@
+body {
+    background-color: #F1F1F1;
+    width: 1280px;
+    height: 767px;
+    margin: auto;
+    margin-top: -17px;
+    font-size: 16px;
+    font-family: inherit;
+    padding-left: 0px ;
+}
+.mn {
+    background-color: #428BC4;
+    color: white;
+    border-radius: 5px;
+}
+#logoUnica {
+    padding-left: 40px;
+}
+#menuBar {
+    display: flex;
+    flex-direction: row;
+    background-color: White;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    margin-top: -55px;
+}
+#search {
+    padding-left: 10px;
+    font-style: italic;
+    width: 450px;
+    height: 30px;
+    border-radius: 8px;
+    border-width: 1px;
+}
+#Kick1 {
+    margin-left: 20px; 
+    padding: 0px 20px; 
+    margin-top: 5px; 
+    background-color: white;
+}
+#Kick {
+    background-color: white;
+}
+#Kick1 :hover {
+    color: white;
+    background-color: orange;
+    
+}
+#drop {
+    padding-left: 5px;
+    cursor: pointer;
+}
+#box {
+    display: inline-block;
+    flex-direction: row;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 150px;
+    position: relative;
+    align-items: baseline;
+}
+#menuUl {
+    width: 250px;
+    padding: 0px;
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+#menuUl li {
+    width: 200px;
+    height: 40px;
+    line-height: 30px;
+    padding: 0 10px;
+    display: block;
+}
+#box:hover #menuUl {
+    background-color: #E4E4E4;
+    display: block;
+}
+
+#box a {
+    text-decoration: none;
+    color: black;
+}
+#box a:hover {
+    color: initial;
+}
+#box ul {
+    list-style-type: none;
+
+}
+#box li {
+    border-bottom: 2px solid;
+    border-color: white;
+}
+
+#miniLink {
+    padding-left: 50px ;
+    background-color: #e4e4e4;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 70px;
+}
+
+#DanhMuc {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D7D7D7;
+    width: 230px;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    float: left;
+
+
+}
+
+.boGach {
+    text-decoration: none;
+    color: black;
+}
+.boGach:hover {
+    color: orange
+}
+
+#cotPhai {
+    margin-left: 20px;
+    width: 900px;
+    float: left;
+
+}
+
+#clear {
+    clear: both;
+}
+.container {
+    margin-top: 20px;
+    background-color: #2C3238;
+    height: 335px;
+    color: white;
+}
+#colum1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 400px;
+    
+}
+#colum2 {
+    float: left;
+    width: 250px;
+}
+#colum3 {
+    float: left;
+    width: 250px;
+}
+#colum4 {
+    float: left;
+    width: 300px;
+}
+.mau:hover{
+    color: orange;
+}
+#footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+    background-color: #222222;
+    color: white;
+    height: 80px;
+}

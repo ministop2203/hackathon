@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="codeJs.js"></script>
+        <title>Học Online: 1500+ khóa học trực tuyến HOT cho người đi làm - Unica</title>
+    </head>
+    <body>
+        <div class="unica-header">
+            <div class="unica-logo-decoration">
+                 <img src="./picture/unica.PNG" alt="" class="unica-logo">
+            </div>
+            <input type="text" class="input-search" placeholder="Tìm khóa học, giảng viên mà bạn quan tâm">
+            <button onclick="getInfoFromSearch()" id="search-logo"><img src="./picture/serch-logo.png" alt="" class="search-image"></button>
+            <button class="btn-activate"> Kích hoạt khóa học</button>    
+            <button id="shopping-logo"><img class="image-shopping" src="./picture/logo.PNG" alt="" ></button>
+            <a href="login.html"><button type="button" class="login">Đăng nhập</button></a>
+            <button type="button" class="register">Đăng ký</button>
+            <div class="clear-float"></div><hr class="hr">         
+         </div>
+         <div class="body-of-activate-course">
+             <h1 id="activate-the-course">KÍCH HOẠT KHÓA HỌC</h1>
+             <h3 id="note-course">Lưu ý: Mỗi khóa học chỉ cần kích hoạt 1 lần duy nhất</h3>
+             <div style="margin-top: 20px;"><i class="far fa-envelope" style="float:left; margin-left: 450px;margin-top: 3px;"></i><p>Bạn <b>chưa có</b> tài khoản đăng nhập? Vui lòng <a href=""><b style="color: blue;">Đăng ký tài khoản mới</b></a></p></div>
+             <div style="margin-top: 20px;"><i class="far fa-envelope" style="float:left; margin-left: 450px;margin-top: 3px;"></i><p>Bạn <b>đã có</b> tài khoản đăng nhập? Vui lòng <a href=""><b style="color: blue;">Đăng ký tài khoản mới</b></a></p></div>
+             <div>
+                 <input type="text" placeholder="Nhập mã kích hoạt, ví dụ: 130E3157B8" id="input-code" > <button onclick="checkCode()"><i class="fas fa-check"></i></button>
+                 <p id="alert-code"></p>
+             </div>
+             <button id="btn-activate-imme"><i class="fas fa-key"></i><label style="cursor: pointer;">  KÍCH HOẠT NGAY</label></button>
+             <div id="alert-login">
+                 <h3 id="alert-login-h3">Vui lòng đăng nhập trước khi nhập mã kích hoạt</h3>
+             </div>
+         </div>
+         <div class="contact" style="margin-top: 10px;">
+            <div class="img-contact">
+                <img src="./picture/contact1.PNG" width="300px">
+            </div>
+            <div class="about-unica">
+                <br><p class="title-footer">Về Unica</p>
+                <p><button onmouseover="this.style.color('red')" class="format-btn">Giới thiệu về Unica</button></p>
+                <p><button class="format-btn">Câu hỏi thường gặp</button></p>
+                <p><button class="format-btn">Điều khoản dịch vụ</button></p>
+                <p><button class="format-btn">Hướng dẫn thanh toán</button></p>
+                <p><button class="format-btn">Kích hoạt khóa học</button></p>
+                <p><button class="format-btn">Góc chia sẻ</button></p>
+                <button class="format-btn">Chính sách bảo mật</button>
+            </div>
+            <div class="collabration">
+                <br><p class="title-footer">Hợp tác liên kết</p>
+                <p><button class="format-btn">Đăng kí giảng viên</button></p>
+                <p><button class="format-btn">Đăng kí giảng viên</button></p>
+                <p><button class="format-btn">Đăng kí đại lí</button></p>
+                <p><button class="format-btn">Đăng kí đại lí</button></p>
+                <p><button class="format-btn">Giải pháp E-learning</button></p>
+                <p><button class="format-btn">Đào tạo chuyên nghiệp</button></p>
+                <p><button class="format-btn">Tuyển dụng nhân tài</button></p>
+                <p><button class="format-btn">Thẻ học online</button></p>
+                <button class="format-btn">Artifact</button>
+            </div>
+            <div class="download">
+                <br><p class="title-footer">Tải app Unica</p>
+                <p><img class="image-footer" src="ios.PNG" alt=""></p><br>
+                <img class="image-footer" id="title-foot" src="./picture/and.PNG" alt="" width="128px"><br><br>
+                <p class="title-footer">Kết nối với Unica</p>
+                <img src="./picture/fb-icon.PNG" width="40px" height="40px" style="margin-top: 20px;">
+                <img src="./picture/ytb-icon.PNG" width="40px" height="40px" style="margin-left: 10px; margin-top: 20px;">
+            </div>
+        </div>
+    </body>
+</html>

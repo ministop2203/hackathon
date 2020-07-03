@@ -1,0 +1,238 @@
+body {
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+#logoUnica {
+    padding-left: 40px;
+}
+#menuBar {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+#box {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 150px;
+    position: relative;
+    align-items: baseline;
+}
+#box i {
+    padding-right: 5px;
+}
+#menu {
+    line-height: 35px;
+    position: absolute;
+    display: none;
+    background-color: #f1f1f1;
+    border: 1px solid;
+    border-color: #f1f1f1;
+    border-radius: 5px;
+    width: 250px;
+}
+#box a {
+    color: black;
+}
+#box a:hover {
+    color: initial;
+}
+#box li {
+    border-bottom: 2px solid;
+    border-color: white;
+}
+#box :hover, #menu {
+    display: block;
+}
+#search {
+    display: inline-block;
+    width: 450px;
+    height: 25px;
+}
+#search i {
+    line-height: 90px;
+    margin: -30px;
+}
+#Input {
+    float: left;
+    width: 460px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #e4e4e4;
+}
+#kichhoat {
+    margin-left:  60px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #f67052;
+    color: black;
+}
+#kichhoat:hover {
+    background-color: #f67052;
+    color: white;
+}
+#giohang {
+    color: #f67052;
+}
+#dangnhap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+}
+#dangnhap:hover {
+    background-color: #f67052;
+    color: white;
+}
+#dangky {
+    margin-left: 5px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #f67052;
+    color: white;
+    border-color: black;
+}
+#dangky:hover {
+    background-color: white;
+    color: initial;
+}
+#header {
+    background-color: #e4e4e4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#header div{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+#danhmuc {
+    float: left;
+    width: 230px;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #e4e4e4;
+}
+#danhmuc h3 {
+    margin-top: 0px;
+}
+#danhmuc a {
+    color: black;
+}
+#danhmuc a:hover{
+    color: #f67052;
+}
+#danhmuc i {
+    color: #f67052;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    padding: 0px;
+    list-style-image: initial;
+    list-style-type: none;
+}
+#noidung {
+    float: left;
+    width: 900px;
+    margin-left: -80;
+}
+#noidung li {
+   display: inline-block;
+}
+.tukhoa {
+    background-color: #428bca;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color: white;
+    border-radius: 5px;
+}
+#clear {
+    clear: both;
+}
+#body {
+    padding-right: -50px;
+}
+spam {
+    color: #f67052;
+}
+#footer {
+    background-color: #2c3238;
+    display: flex;
+    flex-direction: row;
+    line-height: 35px;
+}
+#footer h4{
+    color: #f67052;
+}
+#lienhe {
+    margin-left: 80px;
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+#lienhe span {
+    color:white;
+}
+#lienhe i {
+    color: #f67052;
+}
+#about {
+    width: 200px;
+}
+#about a {
+    color:white;
+}
+#about a:hover{
+    color: #f67052;
+}
+h4 footer {
+    margin-top: 0px;
+}
+#hoptac {
+    width: 300px;
+}
+#hoptac a {
+    color:white;
+}
+#hoptac a:hover{
+    color: #f67052;
+}
+#app {
+    padding-right: 15px;
+}
+#logo {
+    display: inline-block
+}
+#logo div {
+    min-width: 50px;
+    min-height: 50px;
+}
+#fanpage {
+    float: left;
+}
+#fanpage img {
+    padding-top: 20px;
+}

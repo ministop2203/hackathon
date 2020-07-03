@@ -1,0 +1,384 @@
+.unica-header{
+    background-color: white;
+    height: 65px;
+}
+.unica-logo{
+    padding: 10px;
+    margin-left: 80px;
+}
+.unica-logo-decoration{
+    height: 65px;
+    width: 270px;
+    float: left;
+}
+.clear-float{
+clear: both;
+}
+.input-search{
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 3px;
+    width: 400px;
+    height: 35px;
+}
+.fa-search-plus{
+    width: 50px;
+}
+.search-image{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.btn-outline-danger{
+    margin-left: 30px;
+}
+.fa-home{
+    width: 15px;
+}
+#search-logo{
+    border: none;
+    background-color: white;
+}
+#shopping-logo{
+    border: none;
+    background-color: white;
+}
+.btn-activate{
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    font-size: 18px;
+}
+.btn-activate:hover {
+    background: #f44336;
+    color: white;
+}
+.image-shopping{
+    margin-left: 10px;
+}
+.login{
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    font-size: 18px;
+}
+.login:hover{
+    background: rgb(242, 136, 0);
+    color: white;
+}
+.register{
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    background-color:  #ff4d4d;
+    font-size: 18px;
+
+}
+.hr{
+    border: 1px solid red;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+::placeholder {
+    font-style: italic;
+    font-size: 10.5px;
+  }
+/*-------------------------HEADER--------------------*/
+/*--------------------------------------------------------*/
+.list-all-fields{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(  242, 136, 0);
+    float: left;
+}
+.btn.btn-primary.dropdown-toggle{
+    background: rgb(242, 136, 0);
+}
+.btn.btn-primary{
+    border-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.show-ads-image{
+    background-color: rgb(242, 136, 44);
+    height: 400px;
+    width: 1366px;
+}
+.ads-image-button>span{
+    font-size: 50px;
+    opacity: 0.6;
+}
+span#btn-prev{
+    position: absolute;
+    top: 35%;
+    left: 14.5%;
+    cursor: pointer;
+    color: white;
+}
+span#btn-next{
+    position: absolute;
+    top: 35%;
+    right: 0%;
+    cursor: pointer;
+    color: white;
+}
+.today{
+    height: auto;
+}
+.title-today{
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+.btn-multiple-choice{
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn-logo-today{
+    padding: auto;
+    width: 200px;
+    height: 125px;
+    margin: 10px;
+}
+.color-address{
+    color:rgb(241,241,241);
+
+}
+.good-member{
+    height: auto;
+    background-color: rgb(241,241,241);
+}
+.unica-img-1{
+    height: auto;
+}
+.title-member{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.equal-img{
+    padding: 10px;
+    width: 330px;
+    height: 400px;
+    border-radius: 10%;
+}
+.modal-title{
+    font-weight: 600;
+    font-size: 30px;
+}
+.contact{
+    height: auto;
+}
+.img-contact{
+    width: 400px;
+    padding-top: 10px;
+    float: left;
+}
+.icon-footer{
+    margin-left: 100px;
+    font-size: 18px;
+    color: cornsilk;
+}
+.fas{
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+    color: rgb(  242, 136, 0);
+}
+.far{
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+    color: rgb(  242, 136, 0);
+
+}
+
+.unica-title{
+    color: rgb(242,108,79);
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.format-btn{
+    border: none;
+}
+.about-unica{
+    background-color: rgb(44,50,56);
+    height: 420px;
+    float: left;
+    width: 350px;
+}
+.collabration{
+    float: left;
+    width: 350px;
+    height: 420px;
+    background-color: rgb(44,50,56);
+}
+.download{
+    background-color: rgb(44,50,56);
+    height: 420px;
+}
+.format-btn{
+    color: white;
+    background-color: rgb(44,50,56);
+    font-size: 16px;
+}
+.title-footer{
+    color: rgb(242,108,79);
+    font-size: 20px;
+    font-weight: 600;
+}
+.image-footer{
+    border-radius: 5px;
+    cursor: pointer;
+}
+#title-foot{
+    margin-top: 10px;
+}
+
+/*-------------------------------------*/
+/*---------------------------------------------------------------*/
+/*-------------------------------ACTIVATE COURSE---------------------*/
+.body-of-activate-course{
+    height: auto;
+}
+#activate-the-course{
+    color: blue;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 600;
+}
+#note-course{
+    text-align: center;
+}
+#input-code{
+    width: 305px;
+    margin-left: 500px;
+    margin-top: 20px;
+    height: 40px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ .fas.fa-check{
+     margin-top: 10px;
+    width: 30px;
+    height: 25px;
+ }
+ #alert-code{
+     text-align: center;
+     height: 50px;
+     color: tomato;
+     margin-top: 20px;
+     font-size: 18px;
+ }
+ #btn-activate-imme{
+     margin-left:560px;
+     background-color: tomato;
+     font-size: 19px;
+     color: whitesmoke;
+     width: 200px;
+     padding: 5px;
+     cursor: pointer;
+ }
+ #alert-login{
+     background-color: rgb(242,222,222);
+     height: 50px;
+     margin-top: 30px;
+     width: 1000px;
+     margin-left:200px;
+     border-radius: 10px;
+ }
+ #alert-login-h3{
+    margin-left: 250px;
+    padding-top: 10px;
+ }
+ /*-------------------------------------*/
+/*---------------------------------------------------------------*/
+/*-------------------------------LOGIN FORM---------------------*/
+.body-login{
+    background-image: url('logo-login.PNG');
+}
+.input-form{
+    height: 520px;
+    background-color: white;
+    width: 720px;
+    margin: 70px 300px 70px 320px;
+    border-radius: 10px;
+}
+#login-text{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+#input-username{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#input-password{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.input-login{
+    width: 500px;
+    border-radius: 3px;
+    height: 35px;
+}
+#btn-login-1{
+    width: 500px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: deepskyblue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    
+}
+#btn-login-fb{
+    width: 500px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 0px;
+    margin-left: 100px;
+    background-color: deepskyblue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.new-events{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+#input-phone{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+/*-------------------------------------END FOR KHANG-------------------------------------*/
